@@ -1,0 +1,16 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/master/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "SecondCryptoInTheFirstYear"
+author: "qwar"
+
+# support markdown & html tags
+description: |
+  mari kita belajar https://youtu.be/gYJbgp-vz48?si=gTZ1W33tVjLPIvsw
+
+type: "StaticAttachment" # don't touch this value
+value: 1000 # don't touch this value
+
+flags:
+  - "VincooCTF{theCryptoEasyRight}"
+
+provide: "./dist"

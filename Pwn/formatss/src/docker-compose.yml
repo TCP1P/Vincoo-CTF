@@ -1,0 +1,11 @@
+services:
+  format-bocor:
+    build: .
+    restart: on-failure
+    ports:
+      - "1337:1337"
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "256M"

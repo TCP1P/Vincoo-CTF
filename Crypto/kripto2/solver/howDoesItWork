@@ -1,0 +1,3 @@
+taukah kalian kalau p dan q nya cuman leak ?
+kalau kalian lihat perdigit p = angka ganjil dan q angka genap nah jadi gunakan Reverse Grade-School Multiplication untuk solvenya, kenapa ? karena logikany adalah p x q = N
+Kenapa bisa ? karena di setiap posisi digit cuman ada x/angka yang tidak diketahui tapi karena pola Reverse Grade-School Multiplication. Jadi simpelnya A . x + b = C (mod 10) tingal pindah ruas aja, jadi p dan q ny ke recover

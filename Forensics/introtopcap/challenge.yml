@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Intro to PCAP"
+author: "kenntcky"
+
+description: |
+  File jaringan ini sepertinya menarik, coba kamu analisis dan temukan sesuatu yang tersembunyi di dalamnya.
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{s3l4m4t7t7t7t_4nd4_b4ru_s4j4_m3ng4n4l1s1s_n37w0rk_c4p7ur3}"
+
+provide: "./dist"

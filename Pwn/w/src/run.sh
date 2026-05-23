@@ -1,0 +1,2 @@
+#!/bin/sh
+socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"./vuln"

@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "another penjara"
+author: "kenntcky"
+
+description: |
+  "I understand it now" ucap penjaga penjara sebelumnya setelah mengetahui para napi mudah kabur dari penjaranya yang sebelumnya. Kali ini penjaga lebih ketat.
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{n4p1_547u_1n1_j4g0_b3t_k4bur_d4r1_p3nj4r4_d4h_GGWP}"
+
+provide: "./dist"
+
+dashboard:
+  type: "compose"
+  config: "./src/docker-compose.yml"

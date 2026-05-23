@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "another time"
+author: "chilll"
+
+# support markdown & html tags
+description: |
+  its a mallware doing his things with an external C2 server.
+
+
+type: "StaticAttachment" # don't touch this value
+value: 1000 # don't touch this value
+
+flags:
+  - "VincooCTF{t1m1ng_1s_everything_!}"
+
+provide: "./dist"

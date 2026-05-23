@@ -1,0 +1,21 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "penjara"
+author: "kenntcky"
+
+description: |
+  Misimu adalah mencari cara untuk kabur dari penjara ini, good luck.
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{4d4_n4p1_k4bur_d4r1_p3nj4r4_0iiii}"
+
+provide: "./dist"
+
+dashboard:
+  type: "compose"
+  config: "./src/docker-compose.yml"

@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Encoding Berantai"
+author: "kenntcky"
+
+description: |
+  Saya menemukan file aneh di komputer lama kakek. Kata teman saya, file ini melewati beberapa proses sebelum disimpan.
+  
+  Bisakah kamu membalikkan prosesnya?
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{ini_namanya_encoding_yh_berbeda_dengan_encryption}"
+
+provide: "./dist"

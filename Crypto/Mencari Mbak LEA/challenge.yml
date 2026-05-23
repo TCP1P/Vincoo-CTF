@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/master/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Mencari Mbak LEA"
+author: "WanZKey"
+
+# support markdown & html tags
+description: |
+    Happy Hacking Y'all, Jarang ga si nemu chall LEA? biasanya ga GCD/LLL mulu wkkw
+
+type: "DynamicContainer" # don't touch this value
+value: 1000 # don't touch this value
+
+provide: "./dist"
+
+container:
+  flagTemplate: "VincooCTF{Congrats!_sekarang_kamu_belajar_Lightweight_Encryption_Algorithm}"
+  containerImage: "{{.slug}}:latest"
+  memoryLimit: 512
+  cpuCount: 3
+  storageLimit: 512
+  exposePort: 1337
+  enableTrafficCapture: false
+
+scripts:
+  start: cd src && docker build -t {{.slug}} .

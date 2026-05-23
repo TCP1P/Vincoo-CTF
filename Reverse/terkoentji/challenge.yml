@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "terkoentji"
+author: "kenntcky"
+
+description: |
+  Saya menyimpan bendera saya di dalam file ini agar aman, namun saya sekarang lupa password yang saya gunakan. Bisakah anda membantu saya untuk mencari tahu password yang saya gunakan dan mengambil benderanya untuk saya?
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{s1mpl3_X0R_r3v3rs1ng_c1huyyyy_just_ignore_the_flag_encryption_fr}"
+
+provide: "./dist"

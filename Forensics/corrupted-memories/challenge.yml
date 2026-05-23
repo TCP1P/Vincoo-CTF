@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "corrupted-memories"
+author: "SnapanCTF"
+
+description: |
+  I found this old image but it seems corrupted. Can you help me fix it so I can see what's inside?
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{h34d3r5_4r3_cruc14l}"
+
+provide: "./dist"

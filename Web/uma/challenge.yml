@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/master/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+name: "Anak Uma"
+author: "dimasc.tf"
+description: |
+  Are u hacker? so please solve and get the flag from this Anak Uma website mwehehehehe :3
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+type: "StaticAttachment" # don't touch this value
+value: 1000 # don't touch this value
+
+flags:
+  - "VincooCTF{bruh_my_friend_is_talking_a_lot_about_uma_musume_lately_1274912073875738}"
+
+
+dashboard:
+  type: "compose"
+  config: "./challenge/compose.yml"

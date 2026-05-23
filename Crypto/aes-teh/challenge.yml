@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "aes-teh"
+author: "SnapanCTF"
+
+description: |
+  Kamu suka es apa? Aku sih suka aes teh
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{AES_t3h_3n4k_b3ttt}"
+
+provide: "./dist"

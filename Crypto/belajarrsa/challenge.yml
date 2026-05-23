@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Belajar RSA"
+author: "kenntcky"
+
+description: |
+  Saya baru belajar RSA dan mencoba mengenkripsi pesan rahasia. Katanya RSA itu aman kan?
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{0h_t1d4kk_t3rny474_R54_54y4_m4s1h_l3m4h}"
+
+provide: "./dist"

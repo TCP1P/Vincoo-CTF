@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "W"
+author: "SnapanCTF"
+
+description: |
+  Sebuah program sederhana yang menyapa siapapun yang datang. 
+  Tapi kayaknya programmernya terlalu malas untuk mengecek panjang input...
+
+  Bisakah kamu "melewati batas" dan mendapatkan hadiah rahasia?
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{W_sp33d_1n1l4h_s1mpl3_pwn_ret2win}"
+
+provide: "./dist"
+
+dashboard:
+  type: "compose"
+  config: "./src/docker-compose.yml"

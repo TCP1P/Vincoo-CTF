@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "attacked"
+author: "kenntcky"
+
+description: |
+  Oh no! Website saya baru saja di serang oleh hengkertzy... Bisakah anda membantu saya melacak hengker tersebut melalui jejak-jejak yang ia tinggalkan di server log saya?
+
+  Connect: nc {{ .host }} 9012
+
+type: "StaticAttachment"
+value: 1000
+
+flags:
+  - "SnapanCTF{w3ll_d0n3_y0u_jus7_b3c4m3_4_blu3_t34m}"
+
+provide: "./dist"
+
+scripts:
+    start: cd src && docker compose -p {{.slug}} up --build -d
+    stop: cd src && docker compose -p {{.slug}} down --volumes
+    restart:
+      interval: 15m
+      execute: cd src && docker compose -p {{.slug}} restart

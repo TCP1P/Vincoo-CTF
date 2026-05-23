@@ -1,0 +1,14 @@
+$ nc challenge.host 8011
+== TimeBomb VM ==
+5 rounds, time limit: 1200ms each (server-side)
+Protocol: receive SEED + encrypted BYTECODE_B64, reply 64-hex token.
+
+[Round 1/5]
+SEED: 4a1c2f90
+BC_LEN: 169
+BYTECODE_B64: VxkZb3...<snip>...GQ==
+CYCLE_BUDGET: 107965
+> 0000000000000000000000000000000000000000000000000000000000000000
+[WRONG] token mismatch. bye.
+
+# (Contoh di atas hanya menunjukkan format, bukan jawaban yang benar.)

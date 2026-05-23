@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "about-time-huh"
+author: "chilll"
+
+# support markdown & html tags
+description: |
+  Analyze the server logs to recover flag.zip password.
+  
+  Remember: It's all about time.
+
+type: "StaticAttachment" # don't touch this value
+value: 1000 # don't touch this value
+
+flags:
+  - "VincooCTF{t1m1ng_s1d3_ch4nn3ls_4r3_c00l}"
+
+provide: "./dist"

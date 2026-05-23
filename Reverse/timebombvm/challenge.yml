@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "TimeBomb VM"
+author: "m4r10"
+
+# support markdown & html tags
+description: |
+  VM custom + bytecode terenkripsi + opcode muter-muter.  
+  Kelen punya **1200ms** per round buat jawab **token 64-hex**. Telat dikit? ya diputus lah wak.
+
+  Download `dist/` lalu:
+  
+  Start container here: https://{{.host}}/{{.slug}}
+
+type: "StaticAttachment" # don't touch this value
+value: 1000 # don't touch this value
+
+flags:
+  - "VincooCTF{congrats_kamu_kalah_sama_timer_1200}"
+
+provide: "./dist"
+
+dashboard:
+  type: "compose"
+  config: "./src/docker-compose.yml"

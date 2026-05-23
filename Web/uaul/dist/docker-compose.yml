@@ -1,0 +1,17 @@
+services:
+  uaul:
+    build: .
+    ports:
+      - "61000:3000"
+    environment:
+      - PORT=3000
+      - ADMIN_PASSWORD=ztzganteng!
+    restart: on-failure
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "256M"
+        reservations:
+          cpus: "0.25"
+          memory: "128M"

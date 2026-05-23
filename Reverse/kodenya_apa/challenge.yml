@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/dimasma0305/gzcli/refs/heads/main/internal/template/templates/others/ctf-template/.gzctf/challenge.schema.yaml
+
+name: "Kodenya Apaan Dah?"
+author: "hadespwnme"
+
+# support markdown & html tags
+description: |
+  Temuin backdoor yang kubuat dan dapetin flag nya.
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+type: "StaticAttachment" # don't touch this value
+value: 1000 # don't touch this value
+
+flags:
+  - "VincooCTF{gak_harus_pake_grep_kan_solve_nya}"
+
+hints:
+  - "Aku punya 3 teman, satunya TNI, dan punya teman di base nya 64 orang, yang satunya suka bgt beli sari roti yang harganya di Alfamart 13ribu, dan satunya punya angsa yang suka nyo-xor."
+
+provide: "./dist"
+
+dashboard:
+  type: "compose"
+  config: "./src/docker-compose.yml"
