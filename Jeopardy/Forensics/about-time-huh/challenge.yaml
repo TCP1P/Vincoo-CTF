@@ -1,0 +1,19 @@
+name: about-time-huh
+author: chilll
+description: 'Analyze the server logs to recover flag.zip password.
+
+
+  Remember: It''s all about time.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/about-time-huh).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- VincooCTF{t1m1ng_s1d3_ch4nn3ls_4r3_c00l}
+provide: dist

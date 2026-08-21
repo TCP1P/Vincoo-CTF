@@ -1,0 +1,24 @@
+name: formatss
+author: SnapanCTF
+description: 'Sebuah layanan echo yang sangat sederhana. Apapun yang kamu ketik,
+
+  pasti langsung diprint kembali!
+
+
+  Tapi... kenapa output-nya kadang aneh ya? 🤔
+
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Pwn/formatss).'
+type: StaticAttachment
+category: Pwn
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- SnapanCTF{w3lc0m3_t0_f0rm4t_str1ng_vuln3rab1l1ty}
+provide: dist

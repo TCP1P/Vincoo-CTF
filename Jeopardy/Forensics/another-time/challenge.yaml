@@ -1,0 +1,16 @@
+name: another time
+author: chilll
+description: 'its a mallware doing his things with an external C2 server.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/anothertime).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- VincooCTF{t1m1ng_1s_everything_!}
+provide: dist

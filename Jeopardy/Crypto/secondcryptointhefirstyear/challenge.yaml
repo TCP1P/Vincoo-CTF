@@ -1,0 +1,16 @@
+name: SecondCryptoInTheFirstYear
+author: qwar
+description: 'mari kita belajar https://youtu.be/gYJbgp-vz48?si=gTZ1W33tVjLPIvsw
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/kripto2).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- VincooCTF{theCryptoEasyRight}
+provide: dist

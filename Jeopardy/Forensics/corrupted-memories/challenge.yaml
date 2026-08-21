@@ -1,0 +1,16 @@
+name: corrupted-memories
+author: SnapanCTF
+description: 'I found this old image but it seems corrupted. Can you help me fix it so I can see what''s inside?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/corrupted-memories).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- SnapanCTF{h34d3r5_4r3_cruc14l}
+provide: dist

@@ -1,0 +1,213 @@
+{
+  "sourceRepository": "TCP1P/Vincoo-CTF",
+  "targetRepository": "TCP1P/Vincoo-CTF",
+  "private": false,
+  "events": [
+    "Vincoo CTF"
+  ],
+  "challenges": [
+    {
+      "name": "Mencari Mbak LEA",
+      "category": "Crypto",
+      "source": "Crypto/Mencari Mbak LEA/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/Mencari%20Mbak%20LEA",
+      "type": "StaticContainer",
+      "warnings": [
+        "no literal flag could be recovered; organizer review required",
+        "dynamic container lacked a supported flag template; converted to StaticContainer"
+      ],
+      "manifest": "Jeopardy/Crypto/mencari-mbak-lea/challenge.yaml"
+    },
+    {
+      "name": "aes-teh",
+      "category": "Crypto",
+      "source": "Crypto/aes-teh/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/aes-teh",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/aes-teh/challenge.yaml"
+    },
+    {
+      "name": "Belajar RSA",
+      "category": "Crypto",
+      "source": "Crypto/belajarrsa/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/belajarrsa",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/belajar-rsa/challenge.yaml"
+    },
+    {
+      "name": "Encoding Berantai",
+      "category": "Crypto",
+      "source": "Crypto/encodingberantai/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/encodingberantai",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/encoding-berantai/challenge.yaml"
+    },
+    {
+      "name": "INSANE Whitebox AES – Look-up Table Leaks",
+      "category": "Crypto",
+      "source": "Crypto/insanewhiteboxaeslook-uptableleaks/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/insanewhiteboxaeslook-uptableleaks",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/insane-whitebox-aes-look-up-table-leaks/challenge.yaml"
+    },
+    {
+      "name": "SecondCryptoInTheFirstYear",
+      "category": "Crypto",
+      "source": "Crypto/kripto2/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/kripto2",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/secondcryptointhefirstyear/challenge.yaml"
+    },
+    {
+      "name": "RPSLS",
+      "category": "Crypto",
+      "source": "Crypto/vincoo-RPSLS/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/vincoo-RPSLS",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Crypto/rpsls/challenge.yaml"
+    },
+    {
+      "name": "about-time-huh",
+      "category": "Forensics",
+      "source": "Forensics/about-time-huh/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/about-time-huh",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/about-time-huh/challenge.yaml"
+    },
+    {
+      "name": "another time",
+      "category": "Forensics",
+      "source": "Forensics/anothertime/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/anothertime",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/another-time/challenge.yaml"
+    },
+    {
+      "name": "attacked",
+      "category": "Forensics",
+      "source": "Forensics/attacked/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/attacked",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/attacked/challenge.yaml"
+    },
+    {
+      "name": "corrupted-memories",
+      "category": "Forensics",
+      "source": "Forensics/corrupted-memories/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/corrupted-memories",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/corrupted-memories/challenge.yaml"
+    },
+    {
+      "name": "Intro to PCAP",
+      "category": "Forensics",
+      "source": "Forensics/introtopcap/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/introtopcap",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Forensics/intro-to-pcap/challenge.yaml"
+    },
+    {
+      "name": "another penjara",
+      "category": "Misc",
+      "source": "Misc/anotherpenjara/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Misc/anotherpenjara",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Misc/another-penjara/challenge.yaml"
+    },
+    {
+      "name": "penjara",
+      "category": "Misc",
+      "source": "Misc/penjara/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Misc/penjara",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Misc/penjara/challenge.yaml"
+    },
+    {
+      "name": "formatss",
+      "category": "Pwn",
+      "source": "Pwn/formatss/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Pwn/formatss",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/formatss/challenge.yaml"
+    },
+    {
+      "name": "W",
+      "category": "Pwn",
+      "source": "Pwn/w/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Pwn/w",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Pwn/w/challenge.yaml"
+    },
+    {
+      "name": "Kodenya Apaan Dah?",
+      "category": "Reverse",
+      "source": "Reverse/kodenya_apa/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Reverse/kodenya_apa",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/kodenya-apaan-dah/challenge.yaml"
+    },
+    {
+      "name": "terkoentji",
+      "category": "Reverse",
+      "source": "Reverse/terkoentji/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Reverse/terkoentji",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/terkoentji/challenge.yaml"
+    },
+    {
+      "name": "TimeBomb VM",
+      "category": "Reverse",
+      "source": "Reverse/timebombvm/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Reverse/timebombvm",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Reverse/timebomb-vm/challenge.yaml"
+    },
+    {
+      "name": "Back To The Future",
+      "category": "Web",
+      "source": "Web/backtothefuture/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/backtothefuture",
+      "type": "StaticContainer",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/back-to-the-future/challenge.yaml"
+    },
+    {
+      "name": "uaul",
+      "category": "Web",
+      "source": "Web/uaul/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/uaul",
+      "type": "StaticAttachment",
+      "warnings": [],
+      "manifest": "Jeopardy/Web/uaul/challenge.yaml"
+    },
+    {
+      "name": "Anak Uma",
+      "category": "Web",
+      "source": "Web/uma/challenge.yml",
+      "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/uma",
+      "type": "StaticAttachment",
+      "warnings": [
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/anak-uma/challenge.yaml"
+    }
+  ]
+}

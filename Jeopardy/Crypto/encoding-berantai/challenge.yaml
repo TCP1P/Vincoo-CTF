@@ -1,0 +1,19 @@
+name: Encoding Berantai
+author: kenntcky
+description: 'Saya menemukan file aneh di komputer lama kakek. Kata teman saya, file ini melewati beberapa proses sebelum disimpan.
+
+
+  Bisakah kamu membalikkan prosesnya?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/encodingberantai).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- SnapanCTF{ini_namanya_encoding_yh_berbeda_dengan_encryption}
+provide: dist

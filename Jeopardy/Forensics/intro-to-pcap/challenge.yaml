@@ -1,0 +1,16 @@
+name: Intro to PCAP
+author: kenntcky
+description: 'File jaringan ini sepertinya menarik, coba kamu analisis dan temukan sesuatu yang tersembunyi di dalamnya.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/introtopcap).'
+type: StaticAttachment
+category: Forensics
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- SnapanCTF{s3l4m4t7t7t7t_4nd4_b4ru_s4j4_m3ng4n4l1s1s_n37w0rk_c4p7ur3}
+provide: dist

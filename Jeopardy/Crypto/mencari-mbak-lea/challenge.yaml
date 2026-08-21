@@ -1,0 +1,21 @@
+name: Mencari Mbak LEA
+author: WanZKey
+description: 'Happy Hacking Y''all, Jarang ga si nemu chall LEA? biasanya ga GCD/LLL mulu wkkw
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/Mencari%20Mbak%20LEA).'
+type: StaticContainer
+category: Crypto
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- VincooCTF{Congrats!_sekarang_kamu_belajar_Lightweight_Encryption_Algorithm}
+container:
+  memoryLimit: 512
+  cpuCount: 3
+  exposePort: 1337
+  enableTrafficCapture: false
+  enableSharedContainer: false

@@ -1,0 +1,23 @@
+name: INSANE Whitebox AES – Look-up Table Leaks
+author: m4r10
+description: 'A “whitebox” AES build got leaked… except it’s just a dump of lookup tables.
+
+  Most of them are decoys, some are crafted to waste your time.
+
+
+  Recover the AES-128 master key from the table dump and the known plaintext/ciphertext pairs,
+
+  then decrypt the flag.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/insanewhiteboxaeslook-uptableleaks).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- VincooCTF{0bfu5c4t10n_15_my_3ncrypt10n}
+provide: dist

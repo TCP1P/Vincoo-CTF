@@ -1,0 +1,16 @@
+name: Belajar RSA
+author: kenntcky
+description: 'Saya baru belajar RSA dan mencoba mengenkripsi pesan rahasia. Katanya RSA itu aman kan?
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/belajarrsa).'
+type: StaticAttachment
+category: Crypto
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- SnapanCTF{0h_t1d4kk_t3rny474_R54_54y4_m4s1h_l3m4h}
+provide: dist
