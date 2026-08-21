@@ -15,7 +15,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Crypto/mencari-mbak-lea/challenge.yaml"
+      "manifest": "Jeopardy/Crypto/mencari-mbak-lea-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "aes-teh",
@@ -188,7 +188,7 @@
       "warnings": [
         "no literal flag could be recovered; organizer review required"
       ],
-      "manifest": "Jeopardy/Web/back-to-the-future/challenge.yaml"
+      "manifest": "Jeopardy/Web/back-to-the-future-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "uaul",
