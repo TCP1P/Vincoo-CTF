@@ -3,7 +3,7 @@ import os
 import sys
 from hashlib import *
 
-FLAG = os.getenv("GZCTF_FLAG", "VincooCTF{FakeFlagOm:)}").encode()
+FLAG = os.getenv("RSCTF_FLAG", "VincooCTF{FakeFlagOm:)}").encode()
 
 def hash1(x: bytes):
     return md5(x).digest()
