@@ -11,10 +11,9 @@
       "category": "Crypto",
       "source": "Crypto/Mencari Mbak LEA/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/Mencari%20Mbak%20LEA",
-      "type": "StaticContainer",
+      "type": "DynamicContainer",
       "warnings": [
-        "no literal flag could be recovered; organizer review required",
-        "dynamic container lacked a supported flag template; converted to StaticContainer"
+        "no literal flag could be recovered; organizer review required"
       ],
       "manifest": "Jeopardy/Crypto/mencari-mbak-lea/challenge.yaml"
     },
@@ -185,8 +184,10 @@
       "category": "Web",
       "source": "Web/backtothefuture/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/backtothefuture",
-      "type": "StaticContainer",
-      "warnings": [],
+      "type": "DynamicContainer",
+      "warnings": [
+        "no literal flag could be recovered; organizer review required"
+      ],
       "manifest": "Jeopardy/Web/back-to-the-future/challenge.yaml"
     },
     {

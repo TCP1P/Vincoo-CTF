@@ -2,8 +2,9 @@
 import os
 import sys
 from hashlib import *
+from pathlib import Path
 
-FLAG = os.getenv("RSCTF_FLAG", "VincooCTF{FakeFlagOm:)}").encode()
+FLAG = Path("/home/ctf/flag.txt").read_text().strip().encode()
 
 def hash1(x: bytes):
     return md5(x).digest()

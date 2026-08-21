@@ -6,16 +6,14 @@ description: 'Maintenance. Sedang memperbaiki kesalahan.
   ---
 
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/backtothefuture).'
-type: StaticContainer
+type: DynamicContainer
 category: Web
 minScoreRate: 0.25
 difficulty: 5
 disableBloodBonus: false
-flags:
-- flag{Latji_Doraemon}
+flagTemplate: flag{back_to_the_future_b3d4cb08_[TEAM_HASH]}
 container:
   memoryLimit: 1024
   cpuCount: 4
   exposePort: 80
   enableTrafficCapture: false
-  enableSharedContainer: false

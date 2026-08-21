@@ -1,6 +1,8 @@
 #!/bin/sh
 
-export FLAG="flag{Latji_Doraemon}"
+: "${RSCTF_FLAG:?RSCTF_FLAG is required}"
+FLAG=$RSCTF_FLAG
+unset RSCTF_FLAG
 
 
 WEB_ROOT="/app/public"

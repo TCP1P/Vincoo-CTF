@@ -5,6 +5,6 @@ services:
     ports:
       - "9999:1337"
     environment:
-      - FLAG=VincooCTF{Congrats!_sekarang_kamu_belajar_Lightweight_Encryption_Algorithm}
+      - RSCTF_FLAG=fake{flag}
       - PYTHONUNBUFFERED=1
     restart: always
