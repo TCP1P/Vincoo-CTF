@@ -6,10 +6,11 @@ RUN useradd -m ctf
 WORKDIR /home/ctf
 
 COPY server.py .
+COPY start.sh .
 
-RUN chown ctf:ctf server.py && chmod 755 server.py
+RUN chown ctf:ctf server.py start.sh && chmod 755 server.py start.sh
 
 USER ctf
 EXPOSE 1337
 
-CMD socat TCP-LISTEN:1337,reuseaddr,fork EXEC:"python3 -u server.py"
+CMD ["./start.sh"]
