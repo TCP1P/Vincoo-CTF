@@ -7,15 +7,13 @@ author: "pwnthewebsite"
 description: |
   Maintenance. Sedang memperbaiki kesalahan.
 
-type: "StaticContainer" # don't touch this value
+type: "DynamicContainer" # don't touch this value
 value: 1000 # don't touch this value
-
-flags:
-  - "flag{Latji_Doraemon}"
 
 provide: "./dist"
 
 container:
+    flagTemplate: "flag{back_to_the_future_b3d4cb08_[TEAM_HASH]}"
     containerImage: "{{.slug}}:latest"
     memoryLimit: 1024
     cpuCount: 10

@@ -1,1 +1,1 @@
-flag{Latji_Doraemon}
+fake{flag}

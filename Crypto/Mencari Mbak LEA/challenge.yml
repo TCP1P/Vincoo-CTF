@@ -13,7 +13,7 @@ value: 1000 # don't touch this value
 provide: "./dist"
 
 container:
-  flagTemplate: "VincooCTF{Congrats!_sekarang_kamu_belajar_Lightweight_Encryption_Algorithm}"
+  flagTemplate: "VincooCTF{mencari_mbak_lea_0df739c6_[TEAM_HASH]}"
   containerImage: "{{.slug}}:latest"
   memoryLimit: 512
   cpuCount: 3

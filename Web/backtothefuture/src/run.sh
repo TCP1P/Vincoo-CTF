@@ -1,6 +1,8 @@
 #!/bin/sh
 
-export FLAG="flag{Latji_Doraemon}"
+: "${GZCTF_FLAG:?GZCTF_FLAG is required}"
+FLAG=$GZCTF_FLAG
+unset GZCTF_FLAG
 
 
 WEB_ROOT="/app/public"
