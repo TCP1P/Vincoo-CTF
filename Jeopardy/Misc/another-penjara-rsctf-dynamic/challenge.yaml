@@ -1,0 +1,22 @@
+name: another penjara
+author: kenntcky
+description: '"I understand it now" ucap penjaga penjara sebelumnya setelah mengetahui para napi mudah kabur dari penjaranya yang sebelumnya. Kali ini penjaga lebih ketat.
+
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Misc/anotherpenjara).'
+type: DynamicContainer
+category: Misc
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: SnapanCTF{another_penjara___________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 9998
+  enableTrafficCapture: false

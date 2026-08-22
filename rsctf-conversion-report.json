@@ -12,9 +12,8 @@
       "source": "Crypto/Mencari Mbak LEA/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/Mencari%20Mbak%20LEA",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Crypto/mencari-mbak-lea-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -23,6 +22,7 @@
       "source": "Crypto/aes-teh/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/aes-teh",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/aes-teh/challenge.yaml"
     },
@@ -32,6 +32,7 @@
       "source": "Crypto/belajarrsa/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/belajarrsa",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/belajar-rsa/challenge.yaml"
     },
@@ -41,6 +42,7 @@
       "source": "Crypto/encodingberantai/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/encodingberantai",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/encoding-berantai/challenge.yaml"
     },
@@ -50,6 +52,7 @@
       "source": "Crypto/insanewhiteboxaeslook-uptableleaks/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/insanewhiteboxaeslook-uptableleaks",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/insane-whitebox-aes-look-up-table-leaks/challenge.yaml"
     },
@@ -59,6 +62,7 @@
       "source": "Crypto/kripto2/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/kripto2",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Crypto/secondcryptointhefirstyear/challenge.yaml"
     },
@@ -67,9 +71,15 @@
       "category": "Crypto",
       "source": "Crypto/vincoo-RPSLS/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Crypto/vincoo-RPSLS",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Crypto/rpsls/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'VincooCTF{rpsls___________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Crypto/rpsls-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "about-time-huh",
@@ -77,6 +87,7 @@
       "source": "Forensics/about-time-huh/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/about-time-huh",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/about-time-huh/challenge.yaml"
     },
@@ -86,6 +97,7 @@
       "source": "Forensics/anothertime/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/anothertime",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/another-time/challenge.yaml"
     },
@@ -94,9 +106,15 @@
       "category": "Forensics",
       "source": "Forensics/attacked/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/attacked",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Forensics/attacked/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'SnapanCTF{attacked_____________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Forensics/attacked-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "corrupted-memories",
@@ -104,6 +122,7 @@
       "source": "Forensics/corrupted-memories/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/corrupted-memories",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/corrupted-memories/challenge.yaml"
     },
@@ -113,6 +132,7 @@
       "source": "Forensics/introtopcap/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/introtopcap",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Forensics/intro-to-pcap/challenge.yaml"
     },
@@ -121,45 +141,75 @@
       "category": "Misc",
       "source": "Misc/anotherpenjara/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Misc/anotherpenjara",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Misc/another-penjara/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'SnapanCTF{another_penjara___________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Misc/another-penjara-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "penjara",
       "category": "Misc",
       "source": "Misc/penjara/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Misc/penjara",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Misc/penjara/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'SnapanCTF{penjara__________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Misc/penjara-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "formatss",
       "category": "Pwn",
       "source": "Pwn/formatss/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Pwn/formatss",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/formatss/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'SnapanCTF{formatss______________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/formatss-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "W",
       "category": "Pwn",
       "source": "Pwn/w/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Pwn/w",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Pwn/w/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'SnapanCTF{w________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Pwn/w-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Kodenya Apaan Dah?",
       "category": "Reverse",
       "source": "Reverse/kodenya_apa/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Reverse/kodenya_apa",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Reverse/kodenya-apaan-dah/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'VincooCTF{kodenya_apaan_dah[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Reverse/kodenya-apaan-dah-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "terkoentji",
@@ -167,6 +217,7 @@
       "source": "Reverse/terkoentji/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Reverse/terkoentji",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [],
       "manifest": "Jeopardy/Reverse/terkoentji/challenge.yaml"
     },
@@ -175,9 +226,15 @@
       "category": "Reverse",
       "source": "Reverse/timebombvm/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Reverse/timebombvm",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Reverse/timebomb-vm/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'VincooCTF{timebomb_vm________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through archived full flag literal",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Reverse/timebomb-vm-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Back To The Future",
@@ -185,9 +242,8 @@
       "source": "Web/backtothefuture/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/backtothefuture",
       "type": "DynamicContainer",
-      "warnings": [
-        "no literal flag could be recovered; organizer review required"
-      ],
+      "runtimeReason": null,
+      "warnings": [],
       "manifest": "Jeopardy/Web/back-to-the-future-rsctf-dynamic/challenge.yaml"
     },
     {
@@ -195,9 +251,15 @@
       "category": "Web",
       "source": "Web/uaul/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/uaul",
-      "type": "StaticAttachment",
-      "warnings": [],
-      "manifest": "Jeopardy/Web/uaul/challenge.yaml"
+      "type": "DynamicContainer",
+      "runtimeReason": null,
+      "warnings": [
+        "portable single-service Docker runtime promoted from 'StaticAttachment' to DynamicContainer",
+        "generated per-team flag template 'VincooCTF{uaul________________________[TEAM_HASH]}'",
+        "dynamic flag delivery proven through runtime environment variable",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
+      ],
+      "manifest": "Jeopardy/Web/uaul-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Anak Uma",
@@ -205,6 +267,7 @@
       "source": "Web/uma/challenge.yml",
       "sourceUrl": "https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/uma",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "no player attachment files were present"
       ],

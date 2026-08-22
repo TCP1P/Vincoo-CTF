@@ -21,10 +21,10 @@ def hash4(x: bytes):
 def challenge(hash):
     m = os.urandom(16)
     print(f"hash: {hash(m).hex()}")
-    sys.stdout.flush() 
-    
+    sys.stdout.flush()
+
     try:
-        evil_text = bytes.fromhex(input().strip()) 
+        evil_text = bytes.fromhex(input().strip())
         evil_hash = bytes.fromhex(input().strip())
     except:
         print("Format input harus hex string!")
@@ -40,7 +40,7 @@ def challenge(hash):
 
 def challenges():
     sys.stdout.reconfigure(line_buffering=True)
-    
+
     for h in [hash1, hash2, hash3, hash4]:
         if not challenge(h):
             print("Nub Banget lu Coy!")

@@ -1,0 +1,22 @@
+name: attacked
+author: kenntcky
+description: 'Oh no! Website saya baru saja di serang oleh hengkertzy... Bisakah anda membantu saya melacak hengker tersebut melalui jejak-jejak yang ia tinggalkan di server log saya?
+
+
+  Connect: nc {{ .host }} 9012
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Forensics/attacked).'
+type: DynamicContainer
+category: Forensics
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: SnapanCTF{attacked_____________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 9012
+  enableTrafficCapture: false

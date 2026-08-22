@@ -1,0 +1,6 @@
+{
+  "aliases": {
+    "lynx": "lynx/src/",
+    "lune": "~/.lune/.typedefs/0.10.4/"
+  }
+}

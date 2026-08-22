@@ -1,0 +1,22 @@
+name: penjara
+author: kenntcky
+description: 'Misimu adalah mencari cara untuk kabur dari penjara ini, good luck.
+
+
+  Start challenge from: https://{{.host}}/{{.slug}}
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Misc/penjara).'
+type: DynamicContainer
+category: Misc
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flagTemplate: SnapanCTF{penjara__________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 9999
+  enableTrafficCapture: false
