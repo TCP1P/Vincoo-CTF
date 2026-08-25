@@ -3,17 +3,20 @@ author: dimasc.tf
 description: 'Are u hacker? so please solve and get the flag from this Anak Uma website mwehehehehe :3
 
 
-  Start challenge from: https://{{.host}}/{{.slug}}
+  Start challenge from: https://<instance-host>/{{.slug}}
 
 
   ---
 
   Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/Vincoo-CTF/tree/main/Web/uma).'
-type: StaticAttachment
+type: DynamicContainer
 category: Web
-minScoreRate: 0.25
+minScoreRate: 0.01
 difficulty: 5
-disableBloodBonus: false
-flags:
-- VincooCTF{bruh_my_friend_is_talking_a_lot_about_uma_musume_lately_1274912073875738}
-provide: dist
+disableBloodBonus: true
+flagTemplate: VincooCTF{anak_uma________________________________________________[TEAM_HASH]}
+container:
+  memoryLimit: 128
+  cpuCount: 1
+  exposePort: 8080
+  enableTrafficCapture: false
